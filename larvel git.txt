@@ -5,3 +5,12 @@ run : composer install
 run : php artisan key:generate
 run : php artisan migrate:fresh --seed
 run : php artisan serve
+
+
+// git commands
+
+git pull origin master
+
+git push origin master  // regular
+
+git push -f origin <branch> // if any problem occources
