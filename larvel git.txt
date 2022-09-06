@@ -23,6 +23,10 @@ git status
 
 git remote
 
+// git confilci well explained
+
+https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/
+
 
 
 
