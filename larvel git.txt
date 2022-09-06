@@ -25,12 +25,3 @@ git remote
 
 
 
-update from local
-
-update from online
-
-
-offline
-
-online
-
