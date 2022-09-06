@@ -7,12 +7,3 @@ run : php artisan migrate:fresh --seed
 run : php artisan serve
 
 
-// git commands
-
-git remote add origin https://github.com/jeesan09/Problem_solve_2022.git
-
-git pull origin master
-
-git push origin master  // regular
-
-git push -f origin <branch> // if any problem occources
