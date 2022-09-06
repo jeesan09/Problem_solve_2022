@@ -1,0 +1,28 @@
+// pooulate  many to many pivot tab el vaues
+
+
+        // Get all the roles attaching up to 3 random roles to each user
+        $catagories = App\Model\Category::all();
+
+        // Populate the pivot table
+        App\Model\Product::all()->each(function ($product) use ($catagories) { 
+            $product->categorys()->attach(
+                $catagories->random(rand(1, 2))->pluck('id')->toArray()
+            ); 
+        });
+
+
+/// create mail 
+
+ php artisan make:mail Registered -m email.Reg_welcome
+
+
+
+// git commands
+
+git pull origin master
+
+
+git push origin master  // regular
+
+git push -f origin <branch> // if any problem occources
